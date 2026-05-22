@@ -10,9 +10,7 @@ version = '0.0.1-SNAPSHOT'
 description = 'spring'
 
 java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
+    sourceCompatibility = '21'
 }
 
 repositories {
